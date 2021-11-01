@@ -1,0 +1,165 @@
+body {
+  box-sizing: border-box;
+  color: #000000;
+  font-size: 12px;
+  font-family: proxima-nova, sans-serif;
+  margin: 0px;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;4
+}
+
+.text h2 {
+  font-size: 40px;
+  line-height: 44px;
+  margin-bottom: 8px;
+}
+
+.centered-card {
+  border-radius: 20px;
+}
+
+.text h5 {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+
+.learn-more {
+  display: inline-block;
+  min-width: 168px;
+  vertical-align: middle;
+}
+
+.health{
+  font-size:17px;
+}
+
+.alt-grey-blue {
+  background-color: #eef7ff;
+  color: #000;
+}
+
+.mck_place_h{
+  font-size: 32px;
+}
+.mck_place h5{
+  font-size:20px;
+  font-weight: 500px;
+
+}
+
+.mck_place p {
+       font-size: 16px;
+       font-weight:300;
+}
+
+.primary-button{
+  background-color: #f36;
+  color:#fff;
+  text-decoration: none;
+}
+
+
+.get-right-nav .nav-item a.active {
+    border-bottom: 1px solid #3e5a7d;
+    font-weight: 700;
+  }
+
+  .get-right-nav .nav-item a {
+    color: #3e5a7d;
+  }
+
+  .get-right-nav .nav-item {
+    z-index: 1;
+    font-size: 1rem;
+}
+
+.get-right-nav .nav-divider {
+  z-index: 0;
+  position: absolute;
+  height: 4px;
+  bottom: 0;
+  border-bottom: 1px solid #bcd;
+}
+
+.tab-contents{
+  border-radius: 20px;
+}
+
+.tab-font a {
+  color: #0091ff;
+}
+
+.tab-font p{
+  font-size: 1rem;
+  font-weight: 300;
+}
+.tab-font li{
+  font-size: 1.1rem;
+}
+
+.do_more img{
+  min-width:55px;
+  width:45px; 
+  height:45;
+}
+
+.do_more h5{
+  font-size: 1.25rem;
+  line-height: 1.9rem;
+}
+.do_more{
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.do_more .primary-button {
+  font-size: 16px;
+  width: auto;
+  padding: 0 20px;
+  letter-spacing: .6px;
+  box-shadow: 0 10px 22px -7px rgba(189,0,47,.36);
+  line-height: 45px;
+  overflow: hidden;
+}
+
+a.pink {
+  color: #f36;
+}
+
+.services{
+  background-color: #fff;
+}
+
+.card-circle {
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    width: 75px;
+    height: 75px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 37px;
+    background: #fff;
+    box-shadow: 0 2px 6px 0 rgba(0,67,142,.11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-block-footer {
+    background-color: #509fea;
+    border-color: transparent;
+    z-index: 2;
+    padding: 4px;
+    width: 100%;
+    bottom: -1px;
+    left: 0;
+    position: absolute;
+    border-radius: 0 0 40px 40px !important;
+}

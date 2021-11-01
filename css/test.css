@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    color:black;
+}
+
+h3 {
+    font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #002e6d;
+    margin-bottom: 30px;
+}
+
+main {
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-sizing: border-box;
+    width: 94%;
+    margin: 0 7% 20px 3%;
+    position: relative
+}
+
+main{
+ border-top:1px solid lightgrey;
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 20px;
+    position: relative
+}
+
+.form_content{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+#msform fieldset .form-card {
+    text-align: left;
+    color: #9E9E9E
+}
+
+#msform .action-button {
+    width: 100px;
+    background: #002e6d;;
+    font-size: 16px;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #616161;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px
+}
+
+#msform .action-button-previous:hover, #msform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #616161
+}
+
+select.list-dt {
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 2px 5px 3px 5px;
+    margin: 2px
+}
+
+select.list-dt:focus {
+    border-bottom: 2px solid skyblue
+}
+
+.card {
+    z-index: 0;
+    border: none;
+    border-radius: 0.5rem;
+    position: relative
+}
+
+.fs-title {
+    font-size: 25px;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey;
+    border-bottom: 1px solid lightgrey;
+    padding: 20px 30px 20px 20px;
+
+}
+
+#progressbar .active {
+    color: #000000
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 12px;
+    width: 20%;
+    float: left;
+    position: relative;
+   
+}
+
+#progressbar #account:before {
+    font-family: FontAwesome;
+    font-size:20px;
+    content: "\f15c";
+  
+}
+
+#progressbar #personal:before {
+    font-family: FontAwesome;
+    content: "\f54f"
+}
+
+#progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "\f2bd"
+}
+
+#progressbar #summary:before {
+    font-family: FontAwesome;
+    content: "\f1c6"
+}
+#progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "\f00c"
+}
+
+#progressbar li:before {
+    width: 60px;
+    height: 60px;
+    line-height: 45px;
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 7px
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    z-index: -1
+}
+
+#progressbar li.active:before, #progressbar li.active:after {
+    background: #002e6d;
+}
+
+.radio-group {
+    position: relative;
+    margin-bottom: 25px
+}
+
+.radio {
+    display: inline-block;
+    width: 204;
+    height: 104;
+    border-radius: 0;
+    background: lightblue;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 8px 2px
+}
+
+.radio:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3)
+}
+
+.radio.selected {
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1)
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+.subhead {
+    font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #002e6d;
+    margin-bottom: 30px;
+}
+
+.subhead_content p {
+    color: #000;
+}
+
+.subhead_content h3 {
+    font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #002e6d;
+    margin-bottom: 30px;
+}
+
+.form-check {
+    position: relative;
+    min-height: 24px;
+    line-height: 24px;
+    padding-top: 1px;
+    padding-left: 28px;
+    text-align: left;
+}
+
+.form-check-input {
+    padding-right: 28px;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    line-height: 24px;
+    padding-top: 1px;
+    padding-left: 28px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-check-label {
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 15px;
+    line-height: 24px;
+    padding-top: 1px;
+    padding-left: 28px;
+}
+
+.qlist p {
+    font-weight: 400;
+}
+
+.input_label {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.bus_owner h3, .add_info h3, .bankinfo h3, summary h3 {
+    font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #002e6d;
+    margin-bottom: 30px;
+}
+
+.accordion_section .accordion {
+    background-color: white;
+    font-size: 20px;
+    font-weight: 800;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 2px solid #ccc;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion_section .active {
+    background-color: #002e6d;
+    color: white;
+}
+
+.accordion_section .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion_section .accordion:after {
+    content: '\22C1';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    font-weight: 900;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+    color:white;
+}
+
+.accordion_section .active:after {
+    content: '\22C0';
+    
+    /* Unicode character for "minus" sign (-) */
+}
+
+.bankinfo h3 {
+    margin-bottom: 20px;
+}
+
+.summary_col{
+    border-top:1px solid grey;
+    text-align:left;
+}
+
+#progressbar li:first-child::after{
+    width:50%;
+    margin-left:50%;
+}
+
+#progressbar li:last-child::after{
+    width:50%;
+    margin-right:50%;
+}
+
+
+
+.summary .accordion_section .active {
+    background-color: #007dbc;
+    color: white;
+}
+
+footer{
+    border-top:1px outset lightgrey
+}
+
+footer .submit{
+    color:white;
+    background-color: #002e6d;
+}
